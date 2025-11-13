@@ -1,0 +1,52 @@
+#home-189-2445 {
+  /* Ensures the base matches Figma artboard */
+  background-color: var(--color-color_ffffff);
+}
+
+/* Header */
+#home-189-2445 .nav-items { position: absolute; }
+#home-189-2445 .group56 { position: absolute; }
+
+/* Hero typography with strict line handling */
+#home-189-2445 .hero-content p { margin: 0; }
+#home-189-2445 .typo-46,
+#home-189-2445 .typo-47,
+#home-189-2445 .typo-51 {
+  white-space: pre-line;
+}
+
+/* Accessibility focus states for interactive-like elements */
+#home-189-2445 [role="button"],
+#home-189-2445 [role="link"] {
+  outline: none;
+}
+#home-189-2445 [role="button"]:focus-visible,
+#home-189-2445 [role="link"]:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-color_023f3a);
+  border-radius: 4px;
+}
+
+/* Ensure images scale crisply per pixel-perfect positioning without layout shift */
+#home-189-2445 img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Minor smoothing for rounded button circles used as dots */
+#home-189-2445 .style-2 {
+  border-radius: 0px; /* default, overridden inline for dots */
+}
+
+/* Prevent text selection artifacts during review/demo */
+#home-189-2445 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Force exact font-smoothing for crisp typography (visual parity) */
+html, body, #home-189-2445 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* No responsive overrides to keep strict 1440px viewport parity as required */

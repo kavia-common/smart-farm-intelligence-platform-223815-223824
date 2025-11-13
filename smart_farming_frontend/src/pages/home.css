@@ -1,5 +1,5 @@
 @import url('../theme/variables.css');
-@import url('../../assets-common.css');
+@import url('../assets-common.css');
 
 .home-wrapper {
   width: 100%;

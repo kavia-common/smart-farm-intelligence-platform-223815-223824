@@ -1,0 +1,4 @@
+:root {
+  /* Base path for public assets */
+  --public-assets-base: /assets;
+}

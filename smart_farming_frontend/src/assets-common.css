@@ -1,2 +1,5 @@
-@import url('/assets/common.css');
-@import url('/assets/home-189-2445.css');
+@import url('./public-path.css');
+
+/* Import shared design assets from src/assets (CRA-friendly) */
+@import url('./assets/common.css');
+@import url('./assets/home-189-2445.css');

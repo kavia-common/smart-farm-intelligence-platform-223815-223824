@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/smart-farm-intelligence-platform-223815-223824/smart_farming_frontend"
+}

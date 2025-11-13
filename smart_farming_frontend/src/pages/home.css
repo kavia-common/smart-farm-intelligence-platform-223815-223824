@@ -1,0 +1,24 @@
+@import url('../theme/variables.css');
+@import url('../../assets-common.css');
+
+.home-wrapper {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: var(--color-bg);
+}
+
+.screen-container {
+  position: relative;
+  width: 1440px;
+  height: 4942.013671875px;
+  background-color: var(--color-color_ffffff);
+}
+
+@media (max-width: 1440px) {
+  .home-wrapper {
+    /* Scale down to maintain pixel parity on smaller screens */
+    transform: scale(calc(100vw / 1440));
+    transform-origin: top center;
+  }
+}

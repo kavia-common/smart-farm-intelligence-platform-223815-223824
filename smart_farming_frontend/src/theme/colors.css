@@ -1,0 +1,7 @@
+.body-bg { background: var(--color-bg); }
+.surface { background: var(--color-surface); }
+.text-primary { color: var(--color-text); }
+.accent { color: var(--color-primary); }
+.btn-primary { background: var(--color-primary); color: #fff; border: none; border-radius: var(--radius-md); padding: 10px 16px; box-shadow: var(--shadow-sm); }
+.btn-secondary { background: var(--color-secondary); color: #111827; border: none; border-radius: var(--radius-md); padding: 10px 16px; box-shadow: var(--shadow-sm); }
+.card { background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-md); }

@@ -1,0 +1,13 @@
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; background: var(--color-bg); color: var(--color-text); }
+.sidenav { background: var(--color-surface); box-shadow: var(--shadow-sm); padding: 16px; display: flex; flex-direction: column; gap: 8px; position: sticky; top: 0; height: 100vh; }
+.sidenav a { color: var(--color-text); text-decoration: none; padding: 10px 12px; border-radius: var(--radius-sm); }
+.sidenav a.active { background: rgba(37, 99, 235, 0.12); color: var(--color-primary); }
+.content { display: flex; flex-direction: column; min-height: 100vh; }
+.topbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; background: var(--color-surface); box-shadow: var(--shadow-sm); position: sticky; top: 0; z-index: 2; }
+.app-title { margin: 0; font-size: 18px; }
+.theme-btn { background: var(--color-primary); color: #fff; border: none; border-radius: var(--radius-sm); padding: 8px 12px; cursor: pointer; }
+.main { padding: 16px; }
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidenav { position: relative; height: auto; flex-direction: row; overflow-x: auto; }
+}
